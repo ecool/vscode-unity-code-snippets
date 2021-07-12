@@ -8,7 +8,7 @@ All the Unity code snippets you need. This extension intends to be the complete 
 It takes advantage of latest Visual Studio Code snippets features to create the code faster for you.
 
 ### MonoBehaviour
-Create game classes like `MonoBehaviours`, `NetworkBehaviours` and `StateMachineBehaviours` easily. Also create common methods like `Start()`, `Update()` or `OnTriggerEnter2D()` and log calls.
+Create game classes like `MonoBehaviours`, `NetworkBehaviours` and `StateMachineBehaviours` easily. Also create common methods like `Start`, `Update` or `OnTriggerEnter2D` and log calls.
 
 ![MonoBehaviour](https://raw.githubusercontent.com/kleber-swf/vscode-unity-code-snippets/master/images/usage-01.gif)
 
@@ -51,82 +51,86 @@ Start typing the names to create the corresponding snippets.
 	* `ScriptableWizard`
 
 * MonoBehaviour Methods:
-	* `Awake()`
-	* `FixedUpdate()`
-	* `LateUpdate()`
-	* `OnAnimatorIK()`
-	* `OnAnimatorMove()`
-	* `OnApplicationFocus()`
-	* `OnApplicationPause()`
-	* `OnApplicationQuit()`
-	* `OnAudioFilterRead()`
-	* `OnBecameInvisible()`
-	* `OnBecameVisible()`
-	* `OnCollisionEnter()`
-	* `OnCollisionEnter2D()`
-	* `OnCollisionExit()`
-	* `OnCollisionExit2D()`
-	* `OnCollisionStay()`
-	* `OnCollisionStay2D()`
-	* `OnConnectedToServer()`
-	* `OnControllerColliderHit()`
-	* `OnDestroy()`
-	* `OnDisable()`
-	* `OnDisconnectedFromServer()`
-	* `OnDrawGizmos()`
-	* `OnDrawGizmosSelected()`
-	* `OnEnable()`
-	* `OnFailedToConnect()`
-	* `OnFailedToConnectToMasterServer()`
-	* `OnGUI()`
-	* `OnJointBreak()`
-	* `OnJointBreak2D()`
-	* `OnMasterServerEvent()`
-	* `OnMouseDown()`
-	* `OnMouseDrag()`
-	* `OnMouseEnter()`
-	* `OnMouseExit()`
-	* `OnMouseOver()`
-	* `OnMouseUp()`
-	* `OnMouseUpAsButton()`
-	* `OnNetworkInstantiate()`
-	* `OnParticleCollision()`
-	* `OnParticleTrigger()`
-	* `OnPlayerConnected()`
-	* `OnPlayerDisconnected()`
-	* `OnPostRender()`
-	* `OnPreCull()`
-	* `OnPreRender()`
-	* `OnRenderImage()`
-	* `OnRenderObject()`
-	* `OnSerializeNetworkView()`
-	* `OnServerInitialized()`
-	* `OnTransformChildrenChanged()`
-	* `OnTransformParentChanged()`
-	* `OnTriggerEnter()`
-	* `OnTriggerEnter2D()`
-	* `OnTriggerExit()`
-	* `OnTriggerExit2D()`
-	* `OnTriggerStay()`
-	* `OnTriggerStay2D()`
-	* `OnValidate()`
-	* `OnWillRenderObject()`
-	* `Reset()`
-	* `Start()`
-	* `Update()`
+	* `Awake`
+	* `FixedUpdate`
+	* `LateUpdate`
+	* `OnAnimatorIK`
+	* `OnAnimatorMove`
+	* `OnApplicationFocus`
+	* `OnApplicationPause`
+	* `OnApplicationQuit`
+	* `OnAudioFilterRead`
+	* `OnBecameInvisible`
+	* `OnBecameVisible`
+	* `OnCollisionEnter`
+	* `OnCollisionEnter2D`
+	* `OnCollisionExit`
+	* `OnCollisionExit2D`
+	* `OnCollisionStay`
+	* `OnCollisionStay2D`
+	* `OnConnectedToServer`
+	* `OnControllerColliderHit`
+	* `OnDestroy`
+	* `OnDisable`
+	* `OnDisconnectedFromServer`
+	* `OnDrawGizmos`
+	* `OnDrawGizmosSelected`
+	* `OnEnable`
+	* `OnFailedToConnect`
+	* `OnFailedToConnectToMasterServer`
+	* `OnGUI`
+	* `OnJointBreak`
+	* `OnJointBreak2D`
+	* `OnMasterServerEvent`
+	* `OnMouseDown`
+	* `OnMouseDrag`
+	* `OnMouseEnter`
+	* `OnMouseExit`
+	* `OnMouseOver`
+	* `OnMouseUp`
+	* `OnMouseUpAsButton`
+	* `OnNetworkInstantiate`
+	* `OnParticleCollision`
+	* `OnParticleTrigger`
+	* `OnPlayerConnected`
+	* `OnPlayerDisconnected`
+	* `OnPostRender`
+	* `OnPreCull`
+	* `OnPreRender`
+	* `OnRenderImage`
+	* `OnRenderObject`
+	* `OnSerializeNetworkView`
+	* `OnServerInitialized`
+	* `OnTransformChildrenChanged`
+	* `OnTransformParentChanged`
+	* `OnTriggerEnter`
+	* `OnTriggerEnter2D`
+	* `OnTriggerExit`
+	* `OnTriggerExit2D`
+	* `OnTriggerStay`
+	* `OnTriggerStay2D`
+	* `OnValidate`
+	* `OnWillRenderObject`
+	* `Reset`
+	* `Start`
+	* `Update`
 
 * Debug class
-	* `Debug.DrawLine()`
-	* `Debug.DrawRay()`
+	* `Debug.DrawLine`
+	* `Debug.DrawRay`
 
 * Some useful code snippets:
-	* `Debug.Log()` (type _`log`_)
-	* `Debug.LogError()` (type _`logerror`_)
-	* `Debug.LogWarning()` (type _`logwarning`_)
-	* `Debug.LogException()`  (type _`logexception`_)
+	* `Debug.Log` (type _`log`_)
+	* `Debug.LogError` (type _`logerror`_)
+	* `Debug.LogWarning` (type _`logwarning`_)
+	* `Debug.LogException`  (type _`logexception`_)
 
 If you have any suggestions, [open an issue in the Github project](https://github.com/kleber-swf/vscode-unity-code-snippets/issues) page and I'll add them as soon as I can :).
 
 If you like the color theme of the previews, you can download it here: [Base16 Ocean Dark Extended Theme](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended).
 
 Thank you for downloading this extension.
+
+## Modifications
+* Removed parentheses from prefixes to stop suggestions with only parenthesis.
+* README updated to show current snippets without parentheses.
